@@ -1,0 +1,13 @@
+prefix=E:/buildsystem/src/zlib/vc16x64/install
+exec_prefix=E:/buildsystem/src/zlib/vc16x64/install
+libdir=E:/buildsystem/src/zlib/vc16x64/install/lib
+sharedlibdir=E:/buildsystem/src/zlib/vc16x64/install/lib
+includedir=E:/buildsystem/src/zlib/vc16x64/install/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

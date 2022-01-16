@@ -1,0 +1,2 @@
+将plugin文件夹放在D盘code文件夹下
+将shp文件也放在D盘code文件夹下
